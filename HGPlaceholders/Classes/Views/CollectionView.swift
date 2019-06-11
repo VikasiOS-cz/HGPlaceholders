@@ -27,7 +27,7 @@ open class CollectionView: UICollectionView {
     }
     
     /// The placeholdersProvider property is responsible for the placeholders views and data
-    final public var placeholdersProvider = PlaceholdersProvider.default {
+    final public var placeholdersProvider = PlaceholdersProvider.Default {
         willSet {
             /// before changing the placeholders data, we should be sure that the collectionView is in the default configuration. Otherwise If the dataSource and the delegate are in placeholder configuration, and we set the new data, the old one will be released and we will lose the defaultDataSource and defaultDelegate (they will be set to nil)
             showDefault()
