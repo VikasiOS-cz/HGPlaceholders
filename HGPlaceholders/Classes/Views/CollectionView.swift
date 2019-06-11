@@ -178,7 +178,7 @@ open class CollectionView: UICollectionView {
     open override func reloadData() {
         // if the collectionView is empty we switch automatically to no data placeholder
         if numberOfRowsInAllSections() == 0 {
-            showNoResultsPlaceholder()
+            showLoadingPlaceholder()
             return
         }
         // if the data source is in no data placeholder, and the user tries to reload data, we will switch automatically to default
