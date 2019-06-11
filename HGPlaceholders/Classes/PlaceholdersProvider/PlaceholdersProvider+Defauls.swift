@@ -8,8 +8,8 @@
 
 import Foundation
 
-extension PlaceholdersProvider {
-    static var Default: PlaceholdersProvider {
+public extension PlaceholdersProvider {
+    public static var Default: PlaceholdersProvider {
         var commonStyle = PlaceholderStyle()
         commonStyle.backgroundColor = UIColor.white
         commonStyle.actionBackgroundColor = UIColor.init(red: 0/255, green: 104/255, blue: 177/255, alpha: 1)
