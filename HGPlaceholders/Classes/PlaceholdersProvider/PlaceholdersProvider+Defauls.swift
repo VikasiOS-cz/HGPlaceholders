@@ -38,7 +38,6 @@ public extension PlaceholdersProvider {
         noResultsData.image = nil
         noResultsData.title = "No result found"
         noResultsData.subtitle = "No Data Present"
-        noResultsData.action = nil
         let noResults = Placeholder(data: noResultsData, style: commonStyle, key: .noResultsKey)
         
         var noConnectionData: PlaceholderData = .noConnection
