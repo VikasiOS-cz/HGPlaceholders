@@ -89,7 +89,7 @@
             </view>
             <constraints>
                 <constraint firstItem="MXU-dt-vhe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leadingMargin" id="3rF-DX-Ipu"/>
-                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2sn-za-oDj" secondAttribute="bottom" constant="70" id="IuB-zj-UQA"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2sn-za-oDj" secondAttribute="bottom" constant="16" id="IuB-zj-UQA"/>
                 <constraint firstItem="2sn-za-oDj" firstAttribute="top" secondItem="MXU-dt-vhe" secondAttribute="bottom" constant="10" id="NjB-8k-iQn"/>
                 <constraint firstItem="MXU-dt-vhe" firstAttribute="top" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="XGd-TL-aub"/>
                 <constraint firstItem="MXU-dt-vhe" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" priority="100" constant="-60" id="kdb-RH-Da1"/>
