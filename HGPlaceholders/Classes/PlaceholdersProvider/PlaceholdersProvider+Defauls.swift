@@ -43,7 +43,7 @@ public extension PlaceholdersProvider {
         var noConnectionData: PlaceholderData = .noConnection
         noConnectionData.image = nil
         noConnectionData.title = "Internet is not connected"
-        noConnectionData.subtitle = "please check connection"
+        noConnectionData.subtitle = "please check your connection"
         let noConnection = Placeholder(data: noConnectionData, style: commonStyle, key: .noConnectionKey)
         
         let placeholdersProvider = PlaceholdersProvider(loading: loading, error: error, noResults: noResults, noConnection: noConnection)
