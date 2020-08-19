@@ -25,6 +25,14 @@ open class TableView: UITableView {
     
     // MARK: - Public properties
     
+        deinit {
+        defaultDelegate = nil
+        defaultDataSource = nil
+        dataSource = nil
+        delegate = nil
+        placeholderDelegate = nil
+    }
+    
     /// The placeholdersProvider property is responsible for the placeholders views and data
     final public var placeholdersProvider = PlaceholdersProvider.Default {
         willSet {
