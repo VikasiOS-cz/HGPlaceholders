@@ -12,10 +12,8 @@ import UIKit
 open class CollectionView: UICollectionView {
     
     deinit {
-        defaultTableFooterView = nil
         defaultDelegate = nil
         defaultDataSource = nil
-        defaultTableHeaderView = nil
         dataSource = nil
         delegate = nil
         placeholderDelegate = nil
