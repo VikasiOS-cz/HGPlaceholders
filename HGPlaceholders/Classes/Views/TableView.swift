@@ -26,8 +26,10 @@ open class TableView: UITableView {
     // MARK: - Public properties
     
         deinit {
+        defaultTableFooterView = nil
         defaultDelegate = nil
         defaultDataSource = nil
+        defaultTableHeaderView = nil
         dataSource = nil
         delegate = nil
         placeholderDelegate = nil
