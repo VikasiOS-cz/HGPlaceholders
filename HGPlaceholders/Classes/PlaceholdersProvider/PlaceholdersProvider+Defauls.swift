@@ -16,10 +16,17 @@ public extension PlaceholdersProvider {
         commonStyle.actionTitleColor = .white
         commonStyle.titleColor = .black
         commonStyle.isAnimated = false
-        commonStyle.actionTitleFont = UIFont(name: "Cedarville-Cursive", size: 17)!
-        commonStyle.titleFont = UIFont(name: "Cedarville-Cursive", size: 17)!
-        commonStyle.actionTitleFont = UIFont(name: "Cedarville-Cursive", size: 14)!
-                
+        var appFont: String =  "Lato"
+        if let actionTitleFont = UIFont(name: appFont, size: 17){
+            commonStyle.actionTitleFont = actionTitleFont
+        }
+        if let titleFont = UIFont(name: appFont, size: 19){
+            commonStyle.titleFont = titleFont
+        }
+        if let subtitleFont = UIFont(name: appFont, size: 14){
+            commonStyle.subtitleFont = subtitleFont
+        }
+        
         var loadingStyle = commonStyle
         loadingStyle.actionBackgroundColor = .clear
         loadingStyle.actionTitleColor = .gray
