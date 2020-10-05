@@ -16,9 +16,9 @@ public extension PlaceholdersProvider {
         commonStyle.actionTitleColor = .white
         commonStyle.titleColor = .black
         commonStyle.isAnimated = false
-        commonStyle.actionTitleFont = UIFont(name: Fonts.medium, size: 17)!
-        commonStyle.titleFont = UIFont(name: Fonts.medium, size: 17)!
-        commonStyle.actionTitleFont = UIFont(name: Fonts.medium, size: 14)!
+        commonStyle.actionTitleFont = UIFont(name: "Cedarville-Cursive", size: 17)!
+        commonStyle.titleFont = UIFont(name: "Cedarville-Cursive", size: 17)!
+        commonStyle.actionTitleFont = UIFont(name: "Cedarville-Cursive", size: 14)!
                 
         var loadingStyle = commonStyle
         loadingStyle.actionBackgroundColor = .clear
